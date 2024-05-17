@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal - Miguel Alencar</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <!--Criando a Div do cabeçalho-->
+        <div class="container1">
+            <!--Inserindo link na logo do cabeçalho-->
+            <a href="index.html">
+                <img src="Logo_MI4Tech.png" alt="Logo" class="logo">
+            </a>
+            <!--Criando o menu de navegação da página-->
+          <nav>
+          <nav>
+            <ul>
+                <li><a href="sobremmim.html">Sobre Mim</a></li>
+                <li><a href="formacaoeduca.html">Formação Educacional</a></li>
+                <li><a href="https://www.linkedin.com/in/miguelalencar/" target="_blank">Portfólio</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>   
+    <!--Criando o corpo da página-->
+    <main>
+        <!--Criando os formulários-->
+        <h1>ENTRE EM CONTATO</h1>
+        <form action="index.html" method="get">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required style="display: block; width: 450px;">
+          
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required style="display: block; width: 450px;">
+          
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required style="display: block; width: 450px;"></textarea>
+          
+            <button type="submit">Enviar</button>
+          </form>
+    </main>
+</body>
+</html>

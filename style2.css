@@ -1,0 +1,102 @@
+*{
+    /*Aqui estou zerando as margens de toda a página*/
+    margin: 0;
+    /*Aqui estou definindo a cor de fundo da página*/
+    background-color: rgb(255, 255, 255);
+}
+header{
+    /*Definindo a cor padrão para o cabeçalho*/
+    background-color: #0340e9; 
+    /*Aqui defini um preenchimento interno de 20 pixels*/
+    padding: 20px;
+}
+  
+.container1{
+    /*Aqui estou aplicando a cor padrãp do cabeçalho no container1*/
+    background-color: #0340e9;
+    /*Aqui aplico um display flex nos itens do container, visando ter um controle preciso 
+    sobre o alinhamento do itens*/
+    display: flex;
+    /*Aqui estou definindo o possicionamento horizontal dos itens do container*/
+    justify-content: space-between;
+    /*Aqui estou definindo o possicionamento vertical do itens do container*/
+    align-items: center;
+}
+  
+a img{
+    /*Aqui estou aplicando o display em bloco*/
+    display: block;
+    /*Aqui estou centralizando a imagem*/
+    margin: 0 auto;
+}
+
+.logo{
+    /*Aqui estou aplicando a cor padrão do cabeçalho, no background da logo*/
+    background-color: #0340e9;
+    /*Aqui estou definindo a largura de minha logo*/
+    width: 200px;
+    /*Aqui na altura, eu utilei o valor auto, para definir a altura de um elemento de acordo com seu conteúdo interno.*/
+    height: auto;
+    /*Aqui estou definido uma margem esquerda*/
+}
+  
+nav ul{
+    /*Aqui estou aplicando a cor padrão na lista de botões*/
+    background-color: #0340e9;
+    /*Aqui estou removendo os marcadores padrões que por padrão são inseridos
+    quando criamos uma lista*/
+    list-style: none;
+    /*Aqui estou zerando o espaçamento padrão da lista*/
+    margin: 0;
+    /*Aqui estou removendo o espaçamento interno da lista*/
+    padding: 0;
+}
+  
+nav ul li{
+    /*Aqui apliquei o displey inline block, para que os itens da menu sejam exibido
+    como blocos em linha*/
+    display: inline-block;
+    /*Aqui defini um espaçamento de 20 pixels entre os itens do menu*/
+    margin-right: 20px;
+}
+  
+nav ul a{
+    /*Aqui estou aplicando a cor padrão do cabeçalho background dos itens da lista*/
+    background-color: #0340e9;
+    /*Aqui estou removendo o sublinhado dos links*/
+    text-decoration: none;
+    /*Aqui estou definindo a cor das letras dos links*/
+    color: #ffffff;
+    /*Aqui estou definindo o tamanho das letras dos links*/
+    font-size: 16px;
+}
+
+nav ul a:hover{
+    /*Aqui estou adicionando uma animação quando o usário colocar o cursor do mouse sobre os links*/
+    color: #95bdb1;;
+}
+
+main{
+    /*Aqui estou aplicando um espaçamento interno no conteúdo principal da página*/
+    padding: 150px;
+}
+  
+h1{
+    /*Aqui estou definindo a cor do título da página inicial*/
+    color: #2bbb90;;
+    /*Aqui estou definindo a fonte do título da página inicial*/
+    font-family: 'Arial';
+    /*Aqui estou definindo a espessura do texto, conhecido também como o peso da fonte*/
+    font-weight: 700; 
+    /*Aqui estou definindo o tamanho da fonte*/
+    font-size: 40px;
+    /*Aqui estou definindo o espaçamento entre as letras*/
+    line-height: 1.5;
+    /*Aqui defino a forma de alinhamento do texto*/
+    text-align: start;
+}
+  
+.form_complementar{
+    /*Aqui estou definindo uma margem superior*/
+    margin-top: 50px;
+}
